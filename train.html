@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Train Schedule</title>
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.js"
+        integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+        crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="headerDiv">
+            <h1>Train Schedule</h1>
+            <h2>Brought To You By Firebase and Moment.JS</h2>
+        </div>
+    </header>
+
+    <div class="tableDiv">
+        <h3>Current Train Schedule</h3>
+        <table>
+            <tr>
+                <th>Train Name</th>
+                <th>Destination</th>
+                <th>Frequency (min)</th>
+                <th>Next Arrival</th>
+                <th>Minutes Away</th>
+            </tr>
+        </table>
+    </div>
+
+    <div class="inputDiv">
+        <h3>Add Train</h3>
+        
+        <h4>Train Name</h4>
+        <input type="text">
+
+        <h4>Destination</h4>
+        <input type="text">
+
+        <h4>First Train Time (HH:mm military time)</h4>
+        <input type="text">
+
+        <h4>Frequency (min)</h4>
+        <input class="inputLast" type="text">
+    </div>
+    
+
+    <script type="text/javascript" src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+body {
+    box-sizing: border-box;
+}
+
+.headerDiv {
+    width: 750px;
+    height: 150px;
+    background-color: coral;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h2 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tableDiv {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border: 2px solid blue;
+}
+
+h3 {
+    color: rgb(248, 252, 5);
+    background-color: blue;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 9px 15px;
+
+}
+
+th {
+    padding: 7px 30px;
+}
+
+.inputDiv {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border: 2px solid blue;
+}
+
+input {
+    width: 95%;
+    border: 1px solid black;
+    margin-left: 15px;
+    font-size: 17px;
+}
+
+.inputLast {
+    margin-bottom: 20px;
+}
+
+h4 {
+    padding: 7px 10px;
+    font-weight: bolder;
+}
