@@ -46,6 +46,10 @@ th {
     padding: 7px 30px;
 }
 
+td {
+    padding: 3px 30px;
+}
+
 .inputDiv {
     width: 900px;
     margin-left: auto;
@@ -67,5 +71,9 @@ input {
 
 h4 {
     padding: 7px 10px;
+    font-weight: bolder;
+}
+
+thead {
     font-weight: bolder;
 }

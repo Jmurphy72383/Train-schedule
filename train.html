@@ -13,6 +13,7 @@
         crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
 </head>
 <body>
 
@@ -26,13 +27,24 @@
     <div class="tableDiv">
         <h3>Current Train Schedule</h3>
         <table>
-            <tr>
-                <th>Train Name</th>
-                <th>Destination</th>
-                <th>Frequency (min)</th>
-                <th>Next Arrival</th>
-                <th>Minutes Away</th>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Train Name</th>
+                    <th>Destination</th>
+                    <th>Frequency (min)</th>
+                    <th>Next Arrival</th>
+                    <th>Minutes Away</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>3:10 To Yuma</td>
+                    <td>Yuma, AZ</td>
+                    <td>90</td>
+                    <td>3:30 pm</td>
+                    <td>90</td>
+                </tr>
+            </tbody>
         </table>
     </div>
 
