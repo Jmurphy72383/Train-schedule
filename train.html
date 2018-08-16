@@ -26,7 +26,7 @@
 
     <div class="tableDiv">
         <h3>Current Train Schedule</h3>
-        <table>
+        <table id="trainTable">
             <thead>
                 <tr>
                     <th>Train Name</th>
@@ -52,16 +52,18 @@
         <h3>Add Train</h3>
         
         <h4>Train Name</h4>
-        <input type="text">
+        <input type="text" id="trainName">
 
         <h4>Destination</h4>
-        <input type="text">
+        <input type="text" id="destination">
 
         <h4>First Train Time (HH:mm military time)</h4>
-        <input type="text">
+        <input type="text" id="firstTrainTime">
 
         <h4>Frequency (min)</h4>
-        <input class="inputLast" type="text">
+        <input class="inputLast" type="text" id="frequency">
+
+        <button>Submit</button>
     </div>
     
 
